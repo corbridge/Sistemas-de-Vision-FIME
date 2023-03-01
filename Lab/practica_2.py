@@ -3,9 +3,9 @@ import numpy as np
 import practica_1
 
 
-FILE_NAME = r'fotos\foto_6.png'
+FILE_NAME = r'fotos\g.png'
 
-practica_1.make_image_scale(FILE_NAME, 10)
+practica_1.make_image_scale(FILE_NAME, 5)
 try:
     # Read image from disk.
     img = cv2.imread('scaled.png')
